@@ -22,7 +22,7 @@ Example behavior data include the following variables:
 
 EventHz: Sampling rate of locomotion speed measurement.
 
-EventSeq: History of behavior session.
+EventSeq: Trial history of the behavior session.
 ```
 Codes in EventSeq
 -1st column: vis go (111) / vis no-go (112) / aud go (211) / aud no-go (212) / congruent go (311) / congruent no-go (312) / AgoVnogo (411) / AnogoVgo (412)
@@ -33,7 +33,7 @@ Codes in EventSeq
  
 -4th column: correct (1) / incorrect (0)
 ```
-EventSpeed: Locomotion speed (cm/s). -3 to 3s from the stimulus onset. row: trial; column: time point.
+EventSpeed: Locomotion speed (cm/s). -3 to 3s from the stimulus onset. row: trial; column: time.
 
 LickTime: Animal's licktime.
 
@@ -60,19 +60,19 @@ Please download the example data here: "[https://drive.google.com/drive/folders/
 
 Example calcium imaging data include the following variables:
 
-EventF: Calcium activity (dF/F,%). -3 to 3s from the stimulus onset. row: time point; column: neuron; z: trial.
+EventF: Calcium activity (dF/F,%). -3 to 3s from the stimulus onset. row: time; column: neuron; z: trial.
 
 EventHz: Sampling rate of locomotion speed measurement.
 
-EventSpeed: Locomotion speed (cm/s). -3 to 3s from the stimulus onset. row: different trial; column: time point.
+EventSpeed: Locomotion speed (cm/s). -3 to 3s from the stimulus onset. row: trial; column: time.
 
 ImgHz: Sampling rate of calcium imaging
 
-LocomotionOn(Off)setF: Calcium activity (dF/F,%). -2 to 2s from the locomotion on/offset. row: time point; column: neuron; z: trial.
+LocomotionOn(Off)setF: Calcium activity (dF/F,%). -2 to 2s from the locomotion on/offset. row: time; column: neuron; z: trial.
 
-LocomotionOn(Off)setSpeed: Locomotion speed (cm/s). -2 to 2s from the locomotion on/offset. row: different trial; column: time point.
+LocomotionOn(Off)setSpeed: Locomotion speed (cm/s). -2 to 2s from the locomotion on/offset. row: different trial; column: time.
 
-nTrial: Number of trial for each trialtype.
+nTrial: Number of trial for each trial type.
 
 State: Stationary ('s') or Moving ('m') session
 
@@ -113,11 +113,11 @@ EventHz: Sampling rate of locomotion speed (Hz)
 
 ImgHz: Sampling rate of calcium imaging (Hz)
 
-LocomotionBoutF: calcium activity (dF/F,%). -2s from the locomotion onset to 2s after the stimulus offset. each cell: one bout; row: time point; column: neuron;
+LocomotionBoutF: calcium activity (dF/F,%). -2s from the locomotion onset to 2s after the stimulus offset. each cell: one locomotion bout; row: time; column: neuron;
 
-LocomotionOn(Off)setF: Calcium activity (dF/F,%). -2 to 2s from the locomotion on/offset. each cell: one bout; row: time point; column: neuron; z: trial.
+LocomotionOn(Off)setF: Calcium activity (dF/F,%). -2 to 2s from the locomotion on/offset. each cell: one locomotion bout; row: time; column: neuron; z: trial.
 
-LocomotionOn(Off)setSpeed: Locomotion speed (cm/s). -2 to 2s from the locomotion on/offset. each cell: one bout; row: different trial; column: time point.
+LocomotionOn(Off)setSpeed: Locomotion speed (cm/s). -2 to 2s from the locomotion on/offset. each cell: one locomotion bout; row: trial; column: time.
 
 <br/>
 
