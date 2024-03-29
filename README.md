@@ -73,7 +73,7 @@ LocomotionOn(Off)setSpeed: Locomotion speed (cm/s). -2 to 2s from the locomotion
 
 nTrial: Number of trial for each trialtype.
 
-State: Stationary ('s') or Moving ('s') session
+State: Stationary ('s') or Moving ('m') session
 
 "Figure 5 and Extended Figure 6" folder
 -------------
