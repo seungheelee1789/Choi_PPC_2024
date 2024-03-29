@@ -1,11 +1,11 @@
 Repository of example data & MATLAB codes (Choi & Lee, 2024)
 =============
 
-example data and MATLAB codes of "Locomotion-dependent auditory gating to the parietal cortex mediates flexible multisensory decisions" by Choi and Lee 2024.
+Example data and MATLAB codes from "Locomotion-dependent auditory gating to the parietal cortex mediates flexible multisensory decisions" by Choi and Lee in 2024.
 
 Contact to 'ilsong655@gmail.com' if you have any question.
 
-All the analysis were conducted with MATLAB 2019b. Test on MATLAB 2023b also worked.
+All the analyses were conducted with MATLAB 2019b. Testing on MATLAB 2023b also worked.
 
 Add 'Choi Functions' folder with subfolders in the search path.
 
