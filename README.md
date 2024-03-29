@@ -12,7 +12,8 @@ Add 'Choi Functions' folder with subfolders in the search path.
 Please see note at the first part of each MATLAB code for explanation.
 
 For behavior task, data of each trial type were saved in 4-by-4 matrix. See below image for trial types.
-![스크린샷 2024-03-27 오후 7 17 29](https://github.com/IlsongChoi/MyTest/assets/164326421/09949f52-c0a2-436f-ab88-1ba8c698dc1f)
+![Trial type](https://github.com/seungheelee1789/Choi_PPC_2024/assets/164326421/b87ed3f0-768e-4605-b457-cc3fe3f341ec)
+
 
 "Figure 1 and Extended Figure 1" folder
 -------------
